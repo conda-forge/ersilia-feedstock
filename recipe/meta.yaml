@@ -27,7 +27,7 @@ requirements:
     - inputimeout >=1.0.4,<2.0.0
     - emoji >=2.8.0,<3.0.0
     - validators >=0.21.0,<0.22.0
-    - pandas >=1.3.0,<1.4.0
+    - psutil >=5.9.0
     - h5py >=3.7.0,<4.0.0
     - loguru >=0.6.0,<0.7.0
     - pyyaml >=6.0.1,<7.0.0
@@ -37,6 +37,10 @@ requirements:
     - docker-py >=6.1.3,<7.0.0
     - boto3 >=1.28.40,<2.0.0
     - requests <=2.31.0
+    - numpy <=1.26.4
+    - aiofiles <=24.1.0
+    - aiohttp <=3.10.9
+    - nest_asyncio <=1.6.0
   run_constrained:
     - isaura 0.1
     - pytest >=7.4.0,<8.0.0
