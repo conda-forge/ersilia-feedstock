@@ -30,7 +30,7 @@ requirements:
     - validators >=0.21.0,<0.22.0
     - psutil >=5.9.0
     - h5py >=3.7.0,<4.0.0
-    - loguru >=0.6.0,<0.7.0
+    - loguru >=0.7.0
     - pyyaml >=6.0.1,<7.0.0
     - dockerfile-parse >=2.0.1,<3.0.0
     - tqdm >=4.66.1,<5.0.0
