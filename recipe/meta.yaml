@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/ersilia-os/ersilia/archive/v{{ version }}.tar.gz
-  sha256: fd972859e39a16a91217d4d06fc9e388f6fd94d5eee2106bd9ea4080961f5afb
+  sha256: 4fff4ec68022439409a5e24214c3225506a4d2edbdc356206909190d46762b16
 
 build:
   entry_points:
