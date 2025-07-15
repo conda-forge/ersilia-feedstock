@@ -1,5 +1,5 @@
 {% set name = "ersilia" %}
-{% set version = "0.1.41" %}
+{% set version = "0.1.46" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/ersilia-os/ersilia/archive/v{{ version }}.tar.gz
-  sha256: fc1f42ec91ae54a8e98c29a12ac9464b39eb65fa68cd6186dd30fa5629462110
+  sha256: 4fff4ec68022439409a5e24214c3225506a4d2edbdc356206909190d46762b16
 
 build:
   entry_points:
@@ -43,6 +43,7 @@ requirements:
     - aiohttp >=3.10.11
     - nest-asyncio <=1.6.0
     - setuptools >=70.0.0,<71.0.0
+    - redis-py
   run_constrained:
     - isaura 0.1
     - pytest >=7.4.0,<8.0.0
@@ -56,7 +57,6 @@ test:
   commands:
     - pip check
     - ersilia --help
-    - bentoml --help
   requires:
     - pip
 
@@ -70,4 +70,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - DhanshreeA
+    - GemmaTuron
+    - miquelduranfrigola
