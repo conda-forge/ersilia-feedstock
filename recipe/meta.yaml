@@ -1,5 +1,5 @@
 {% set name = "ersilia" %}
-{% set version = "0.1.47" %}
+{% set version = "0.1.49" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/ersilia-os/ersilia/archive/v{{ version }}.tar.gz
-  sha256: 0d134fc3d420ebeb2f8e96211e0e916795a915a3e09d3c15e7892dcf10f29856
+  sha256: d129d15c99fea89ae56e69eae61eb277c3792697c7e5d34112bf612c9f773a6b
 
 build:
   entry_points:
