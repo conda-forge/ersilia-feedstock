@@ -44,6 +44,7 @@ requirements:
     - nest-asyncio <=1.6.0
     - setuptools >=70.0.0,<71.0.0
     - redis-py
+    - pandas >2.0.0
   run_constrained:
     - isaura 0.1
     - pytest >=7.4.0,<8.0.0
