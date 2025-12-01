@@ -146,6 +146,6 @@ Feedstock Maintainers
 =====================
 
 * [@GemmaTuron](https://github.com/GemmaTuron/)
+* [@Marina18](https://github.com/Marina18/)
 * [@miquelduranfrigola](https://github.com/miquelduranfrigola/)
-* [@MarinaMiñarro](https://github.com/marina18)
 
