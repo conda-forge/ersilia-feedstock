@@ -45,6 +45,8 @@ requirements:
     - setuptools >=70.0.0,<71.0.0
     - redis-py
     - pandas >2.0.0
+    - rich >=12.0.0
+    - rich-click >=1.6.0
   run_constrained:
     - isaura 0.1
     - pytest >=7.4.0,<8.0.0
