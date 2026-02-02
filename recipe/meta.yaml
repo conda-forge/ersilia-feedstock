@@ -44,7 +44,7 @@ requirements:
     - nest-asyncio <=1.6.0
     - setuptools >=70.0.0,<71.0.0
     - redis-py
-    - pandas >2.0.0
+    - pandas >=2.0.0,<3.0.0 
     - rich >=12.0.0
     - rich-click >=1.6.0
   run_constrained:
