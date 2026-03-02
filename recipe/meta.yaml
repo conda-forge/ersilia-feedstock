@@ -1,5 +1,5 @@
 {% set name = "ersilia" %}
-{% set version = "0.1.54" %}
+{% set version = "0.1.55" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/ersilia-os/ersilia/archive/v{{ version }}.tar.gz
-  sha256: ea9fa9d2e5f537ddccabb1387f958e8770a536a9b7b30070738a9f091c1741d6
+  sha256: 860e9ac7f39acba297a0d8fb2d14952ed32e3a91a0b4a1db46b9c72d2c0e1acd
 
 build:
   entry_points:
@@ -44,7 +44,7 @@ requirements:
     - nest-asyncio <=1.6.0
     - setuptools >=70.0.0,<71.0.0
     - redis-py
-    - pandas >=2.0.0,<3.0.0 
+    - pandas >=2.0.0,<3.0.0
     - rich >=12.0.0
     - rich-click >=1.6.0
   run_constrained:
